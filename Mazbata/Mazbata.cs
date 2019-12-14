@@ -47,9 +47,9 @@ namespace Mazbata
                     Console.WriteLine("şunun şurasında kala kala " + dayCount.ToString() + " gün kaldı...");
                 }
             }
-            string LAST_WORDS = "Alt tarafı " + REMAINING_DAY + " güncük daha geciktirmeyi başarırsanız, \r\nIBB Başkanı Ekrem Imamoğlu " +
+           string LAST_WORDS = "Alt tarafı " + REMAINING_DAY + " güncük daha geciktirmeyi başarırsanız, \r\nIBB Başkanı Ekrem Imamoğlu " +
                           " mazbatasını almadan, \r\nöbür seçim gelmiş olur.";
-            string IMPACT = "\r\nAğlayacaksanız oynamayalım. :)";
+           const string IMPACT = "\r\nAğlayacaksanız oynamayalım. :)";
 
             TypeWrite(LAST_WORDS, 15, 1000);
             TypeWrite(IMPACT, 50, 1000);
